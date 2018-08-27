@@ -9,150 +9,320 @@
         android:layout_height="wrap_content">
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
             android:id="@+id/first_page"
-            android:visibility="visible"
-            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/num_one_linear_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <ImageButton
-                    android:id="@+id/num_one_image_button"
-                    android:layout_width="0dp"
-                    android:layout_height="250dp"
-                    android:layout_gravity="center_horizontal"
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_marginBottom="8dp"
                     android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
                     android:layout_marginTop="8dp"
-                    android:layout_weight="1"
-                    android:contentDescription="number one"
-                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/one"
                     android:src="@drawable/number1" />
 
-                <ImageButton
-                    android:id="@+id/num_two_image_button"
-                    android:layout_width="0dp"
-                    android:layout_height="250dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_weight="1"
-                    android:contentDescription="number one"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/number2" />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/one"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/play_button"
+                    android:src="@drawable/ic_action_play" />
+
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/num_two_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@string/two"
+                    android:src="@drawable/number2" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/two"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/play_button"
+                    android:src="@drawable/ic_action_play" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/num_three_linear_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
-                <ImageButton
-                    android:id="@+id/num_three_image_button"
-                    android:layout_width="0dp"
-                    android:layout_height="250dp"
-                    android:layout_gravity="center_horizontal"
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_marginBottom="8dp"
                     android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
                     android:layout_marginTop="8dp"
-                    android:layout_weight="1"
-                    android:contentDescription="number one"
-                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/three"
                     android:src="@drawable/number3" />
 
-                <ImageButton
-                    android:id="@+id/num_four_image_button"
-                    android:layout_width="0dp"
-                    android:layout_height="250dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_weight="1"
-                    android:contentDescription="number one"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/number4" />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/three"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/play_button"
+                    android:src="@drawable/ic_action_play" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/num_four_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@string/four"
+                    android:src="@drawable/number4" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/four"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/play_button"
+                    android:src="@drawable/ic_action_play" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/num_five_linear_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
-                <ImageButton
-                    android:id="@+id/num_five_image_button"
-                    android:layout_width="0dp"
-                    android:layout_height="250dp"
-                    android:layout_gravity="center_horizontal"
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_marginBottom="8dp"
                     android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
                     android:layout_marginTop="8dp"
-                    android:layout_weight="1"
-                    android:contentDescription="number one"
-                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/five"
                     android:src="@drawable/number5" />
 
-                <ImageButton
-                    android:id="@+id/num_six_image_button"
-                    android:layout_width="0dp"
-                    android:layout_height="250dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_weight="1"
-                    android:contentDescription="number one"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/number6" />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/five"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/play_button"
+                    android:src="@drawable/ic_action_play" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/num_six_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@string/six"
+                    android:src="@drawable/number6" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/six"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/play_button"
+                    android:src="@drawable/ic_action_play" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/num_seven_linear_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
-                <ImageButton
-                    android:id="@+id/num_seven_image_button"
-                    android:layout_width="0dp"
-                    android:layout_height="250dp"
-                    android:layout_gravity="center_horizontal"
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
                     android:layout_marginBottom="8dp"
                     android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
                     android:layout_marginTop="8dp"
-                    android:layout_weight="1"
-                    android:contentDescription="number one"
-                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/seven"
                     android:src="@drawable/number7" />
 
-                <ImageButton
-                    android:id="@+id/num_eight_image_button"
-                    android:layout_width="0dp"
-                    android:layout_height="250dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_weight="1"
-                    android:contentDescription="number one"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/number8" />
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/seven"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black" />
 
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/play_button"
+                    android:src="@drawable/ic_action_play" />
             </LinearLayout>
 
-            <ImageButton
-                android:id="@+id/num_nine_image_button"
-                android:layout_width="150dp"
-                android:layout_height="250dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="8dp"
-                android:contentDescription="number one"
-                android:scaleType="centerCrop"
-                android:src="@drawable/number9" />
+            <LinearLayout
+                android:id="@+id/num_eight_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@string/eight"
+                    android:src="@drawable/number8" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/eight"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/play_button"
+                    android:src="@drawable/ic_action_play" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/num_nine_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@string/nine"
+                    android:src="@drawable/number9" />
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/nine"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@android:color/black" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/play_button"
+                    android:src="@drawable/ic_action_play" />
+            </LinearLayout>
 
         </LinearLayout>
-
     </ScrollView>
 </layout>

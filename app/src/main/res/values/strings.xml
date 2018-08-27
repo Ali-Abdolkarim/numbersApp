@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">GitHub Assignment</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+    <string name="four">Four</string>
+    <string name="six">Six</string>
+    <string name="five">Five</string>
+    <string name="seven">Seven</string>
+    <string name="eight">Eight</string>
+    <string name="nine">Nine</string>
+    <string name="number_one">number one</string>
+    <string name="play_button">Play Button</string>
 </resources>
